@@ -56,9 +56,37 @@ background-color: #EDEDED;
 
 .filadinero h5,h6{
     color: grey;
+    font-weight: lighter;
 }
 
 .filadinero, .filaGanancias{
     display: flex;
     justify-content: space-between;
+}
+.filadinero .derecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.filaMovimientos button{
+    width: 48%;
+    margin: 0 0.3rem 0rem 0.3rem;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.BtnInfo{
+    background-color: #E4F0F8;
+    border: none;
+    color: #009EE3;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    
+}
+.BtnInfo:hover {
+    background-color: #c8e0f0;  
+    color: #0080b8;             
+    cursor: pointer;            
+    transition: all 0.3s ease;  
 }
